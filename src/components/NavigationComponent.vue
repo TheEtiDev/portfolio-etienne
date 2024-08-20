@@ -3,19 +3,25 @@
         <h2>Étienne Lessard</h2>
         <ul>
             <li>
-                <router-link to="/">Home</router-link>
+                <router-link to="/">Accueil</router-link>
             </li>
             <li>
-                <router-link to="/about">About</router-link>
+                <router-link to="/a-propos">À Propos</router-link>
             </li>
             <li>
-                <router-link to="/projects">Projects</router-link>
+                <router-link to="/projets">Projets</router-link>
             </li>
             <li>
-                <router-link to="/contact">Contact</router-link>
+                <router-link to="/experience">Expériences</router-link>
             </li>
             <li>
-                <router-link to="/blog">Blog</router-link>
+                <router-link to="/etudes">Études</router-link>
+            </li>
+            <li>
+                <router-link to="/technologies">Technologies</router-link>
+            </li>
+            <li>
+                <router-link to="/contact">Me Contacter</router-link>
             </li>
         </ul>
     </nav>
@@ -61,7 +67,7 @@
     }
 
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 975px) {
         ul {
             display: none;
         }
