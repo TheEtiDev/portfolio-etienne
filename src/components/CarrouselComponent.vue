@@ -12,7 +12,8 @@ function plusSlides(n) {
 }
 
 function currentSlide(n) {
-    showSlide(slideIndex = n);
+    //Présentement désactiver pour éviter les erreurs
+    //showSlide(slideIndex = n);
 }
 
 function showSlide(n) {
@@ -44,41 +45,41 @@ function showSlide(n) {
 // Auto slide change
 setInterval(() => {
     plusSlides(1);
-}, 10000);
+}, 6000);
 </script>
 
 <template>
     <div class="carrousel-container">
         <div class="slide fade">
-            <img src="https://via.placeholder.com/1920x1080" alt="slide1">
+            <img src="../assets/images/experienceImg.jpg" alt="slide1">
             <div class="slide-content">
                 <h2>Expériences</h2>
                 <button>Voir plus de détails</button>
             </div>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/1920x1080" alt="slide2">
+            <img src="../assets/images/etudesImg.jpg" alt="slide2">
             <div class="slide-content">
                 <h2>Études</h2>
                 <button>Voir plus de détails</button>
             </div>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/1920x1080" alt="slide3">
+            <img src="../assets/images/technologiesImg.jpg" alt="slide3">
             <div class="slide-content">
                 <h2>Technologies</h2>
                 <button>Voir plus de détails</button>
             </div>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/1920x1080" alt="slide4">
+            <img src="../assets/images/projetsImg.jpg" alt="slide4">
             <div class="slide-content">
-                <h2>Compétences</h2>
+                <h2>Projets</h2>
                 <button>Voir plus de détails</button>
             </div>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/1920x1080" alt="slide5">
+            <img src="../assets/images/contactImg.jpg" alt="slide5">
             <div class="slide-content">
                 <h2>Me Contacter</h2>
                 <button>Voir plus de détails</button>
@@ -105,6 +106,7 @@ setInterval(() => {
 
 img {
     width: 100%;
+    height: 50rem; 
 }
 
 * {
@@ -124,6 +126,10 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
 }
 
 .carrousel-container {
@@ -177,7 +183,7 @@ button {
 }
 
 .dot {
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -187,8 +193,12 @@ button {
     transition: background-color 0.6s ease;
 }
 
-.active,
+/* .active,
 .dot:hover {
+    background-color: #717171;
+} */
+
+.active {
     background-color: #717171;
 }
 

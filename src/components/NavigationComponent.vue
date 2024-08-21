@@ -1,10 +1,9 @@
 <template>
     <nav>
-        <h2>Étienne Lessard</h2>
+        <h2>
+            <router-link to="/">Étienne Lessard</router-link>
+        </h2>
         <ul>
-            <li>
-                <router-link to="/">Accueil</router-link>
-            </li>
             <li>
                 <router-link to="/a-propos">À Propos</router-link>
             </li>
@@ -64,6 +63,7 @@
 
     a:hover {
         text-decoration: underline;
+        color: #ccc;
     }
 
 

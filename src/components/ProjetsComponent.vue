@@ -82,6 +82,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #555;
+}
+
 img {
     width: 100%;
     height: auto;
