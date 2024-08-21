@@ -114,4 +114,8 @@ span {
     text-align: justify;
     padding: 0 1rem 0 1rem;
 }
+
+p {
+    line-height: 1.5;
+}
 </style>
