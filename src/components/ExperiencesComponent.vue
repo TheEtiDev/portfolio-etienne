@@ -7,32 +7,47 @@
         <div class="content-container">
             <div class="experience">
                 <span class="entete">
-                    <h4>Nom du poste 1</h4>
-                    <h4>Nom de l'employeur 1</h4>
-                    <img src="https://via.placeholder.com/100" alt="experience1">
+                    <div>
+                        <h4>Coordonnateur marketing numérique</h4>
+                        <h5>Sept24</h5>
+                    </div>
+                    <img src="../assets/images/LogoSept24.jpg" alt="experience1">
                 </span>
                 <span>
-                    <p>Date de début - Date de fin</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis voluptatum ipsa expedita
-                        libero temporibus voluptatem dolores quos similique commodi. Harum ex consectetur impedit soluta
-                        deserunt placeat voluptates? A, suscipit! Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Illum omnis quos iste voluptatum molestias unde optio. Dolores mollitia asperiores eum
-                        dignissimos, molestias cumque ex laborum commodi quis fugit repudiandae iste?</p>
+                    <p>sept. 2021 - avr. 2024 - 2 ans 8 mois</p>
+                    <p>En tant que coordonnateur marketing numérique chez Set24, j'ai eu l'opportunité de travailler sur
+                        la création, l'optimisation, et la gestion de campagnes numériques. J'ai utilisé divers outils
+                        publicitaires tels que Facebook Ads, Google Ads, LinkedIn Ads, TikTok Ads, Spotify Ads, et
+                        Snapchat Ads. Dans le cadre de mon rôle, j'ai élaboré des stratégies marketing adaptées aux
+                        besoins de mes clients et présenté les résultats des campagnes à ces derniers.</p>
+                    <p>Ce poste à
+                        distance m'a permis de développer les compétences nécessaires pour travailler efficacement sur
+                        des projets d'agence. J'ai collaboré sur divers types de campagnes, notamment des campagnes
+                        publicitaires sur les moteurs de recherche (SEM), des campagnes de génération de leads, et des
+                        campagnes de notoriété sur les réseaux sociaux. Enfin, j'ai collaboré avec le département de
+                        développement web pour intégrer des outils d'analytique et apporter des modifications aux sites
+                        web des clients afin d'optimiser leurs efforts marketing.</p>
                 </span>
             </div>
             <div class="experience">
                 <span class="entete">
-                    <h4>Nom du poste 2</h4>
-                    <h4>Nom de l'employeur 2</h4>
-                    <img src="https://via.placeholder.com/100" alt="experience2">
+                    <div>
+                        <h4>Caissier</h4>
+                        <h5>Matériaux Pont-Masson</h5>
+                    </div>
+                    <img src="../assets/images/LogoPont-Masson.jpg" alt="experience2">
                 </span>
                 <span>
-                    <p>Date de début - Date de fin</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis voluptatum ipsa expedita
-                        libero temporibus voluptatem dolores quos similique commodi. Harum ex consectetur impedit soluta
-                        deserunt placeat voluptates? A, suscipit! Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Illum omnis quos iste voluptatum molestias unde optio. Dolores mollitia asperiores eum
-                        dignissimos, molestias cumque ex laborum commodi quis fugit repudiandae iste?</p>
+                    <p>mai 2020 - oct 2021 - 1 an 6 mois</p>
+                    <p>En tant que caissier chez Matériaux Pont-Masson, j'ai assuré la gestion des transactions
+                        quotidiennes, notamment les retours et les achats des clients.</p>
+                    <p>
+                        Mon efficacité et mon sens des
+                        responsabilités m'ont permis d'être promu au rôle de caissier gestionnaire des dépôts des
+                        caisses. Dans ce rôle, j'étais responsable de la gestion du coffre de liquidités de l'entreprise
+                        et de la préparation des dépôts bancaires quotidiens, garantissant ainsi l'exactitude et la
+                        sécurité des fonds.
+                    </p>
                 </span>
             </div>
         </div>
@@ -87,8 +102,6 @@ img {
 h4 {
     font-size: 1rem;
     margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
 }
 
 span.entete {

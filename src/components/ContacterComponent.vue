@@ -1,4 +1,12 @@
 <script setup>
+    const call = () => {
+        window.open('tel:+14503311764');
+    }
+
+    const copy = () => {
+        navigator.clipboard.writeText("etiless98@gmail.com");
+        alert("Courriel copié dans le presse-papier");
+    }
 </script>
 
 <template>
@@ -7,13 +15,13 @@
         <div class="content-container">
             <div class="contact">
                 <h4>Numéro de téléphone</h4>
-                <p>123-456-9494</p>
-                <button>Appeler</button>
+                <p>+1 (450) 331 1764</p>
+                <button @click="call()">Appeler</button>
             </div>
             <div class="contact">
                 <h4>Courriel</h4>
-                <p>test@test.com</p>
-                <button>Copier le courriel</button>
+                <p>etiless98@gmail.com</p>
+                <button @click="copy()">Copier le courriel</button>
             </div>
         </div>
     </section>

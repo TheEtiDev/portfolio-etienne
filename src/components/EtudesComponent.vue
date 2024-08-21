@@ -7,32 +7,41 @@
         <div class="content-container">
             <div class="etude">
                 <span class="entete">
-                    <h4>Nom du programme 1</h4>
-                    <h4>Nom de l'école 1</h4>
-                    <img src="https://via.placeholder.com/100" alt="ecole1">
+                    <div>
+                        <h4>Baccalauréat en génie logiciel</h4>
+                        <h5>École de technologie supérieure (ÉTS)</h5>
+                    </div>
+                    <img src="../assets/images/LogoEts.jpg" alt="ecole1">
                 </span>
                 <span>
-                    <p>Date de début - Date de fin</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis voluptatum ipsa expedita
-                        libero temporibus voluptatem dolores quos similique commodi. Harum ex consectetur impedit soluta
-                        deserunt placeat voluptates? A, suscipit! Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Illum omnis quos iste voluptatum molestias unde optio. Dolores mollitia asperiores eum
-                        dignissimos, molestias cumque ex laborum commodi quis fugit repudiandae iste?</p>
+                    <p>avr. 2024 - août 2028 (prévue)</p>
+                    <p>Je poursuis actuellement un Baccalauréat en génie logiciel à l'École de technologie supérieure
+                        (ÉTS). Ce programme rigoureux me permet de développer une solide expertise en conception,
+                        développement et gestion de logiciels. J'y apprends les principes fondamentaux de la
+                        programmation, l'architecture logicielle, ainsi que la gestion de projets complexes. Les cours
+                        couvrent également des domaines tels que les bases de données, les systèmes embarqués, et la
+                        sécurité informatique. Grâce à une approche pratique axée sur les projets, j'acquiers non
+                        seulement des compétences techniques, mais aussi une expérience concrète qui me prépare à
+                        relever les défis du monde professionnel.</p>
                 </span>
             </div>
             <div class="etude">
                 <span class="entete">
-                    <h4>Nom du programme 2</h4>
-                    <h4>Nom de l'école 2</h4>
-                    <img src="https://via.placeholder.com/100" alt="ecole2">
+                    <div>
+                        <h4>Techniques en gestion et comptabilité</h4>
+                        <h5>Cégep de Saint-Jérôme</h5>
+                    </div>
+                    <img src="../assets/images/LogoCstj.jpg" alt="ecole2">
                 </span>
                 <span>
-                    <p>Date de début - Date de fin</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis voluptatum ipsa expedita
-                        libero temporibus voluptatem dolores quos similique commodi. Harum ex consectetur impedit soluta
-                        deserunt placeat voluptates? A, suscipit! Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Illum omnis quos iste voluptatum molestias unde optio. Dolores mollitia asperiores eum
-                        dignissimos, molestias cumque ex laborum commodi quis fugit repudiandae iste?</p>
+                    <p>août	2021 - avr. 2024</p>
+                    <p>J'ai complété un programme en Techniques de gestion et comptabilité au Cégep de Saint-Jérôme, où
+                        j'ai acquis une compréhension approfondie des aspects critiques de la gestion d'entreprise et
+                        des affaires. Ce programme m'a permis de me familiariser avec des domaines clés tels que le
+                        marketing, les ressources humaines, et l'approvisionnement, tout en développant une expertise
+                        approfondie en comptabilité et gestion financière. De plus, j'ai pu renforcer mes compétences en
+                        gestion de projets, ce qui m'a préparé à gérer efficacement les opérations et les finances au
+                        sein d'une entreprise.</p>
                 </span>
             </div>
         </div>
@@ -87,8 +96,6 @@ img {
 h4 {
     font-size: 1rem;
     margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
 }
 
 span.entete {
