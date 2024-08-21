@@ -15,7 +15,7 @@ import FooterComponent from '../components/FooterComponent.vue';
   <NavigationComponent />
   <ul>
     <li>
-      <CarrouselComponent />
+      <CarrouselComponent id="home" />
     </li>
     <li>
       <AboutComponent id="a-propos" />

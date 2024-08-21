@@ -54,35 +54,35 @@ setInterval(() => {
             <img src="../assets/images/experienceImg.jpg" alt="slide1">
             <div class="slide-content">
                 <h2>Expériences</h2>
-                <button>Voir plus de détails</button>
+                <button><a href="#experiences">Voir plus de détails</a></button>
             </div>
         </div>
         <div class="slide fade">
             <img src="../assets/images/etudesImg.jpg" alt="slide2">
             <div class="slide-content">
                 <h2>Études</h2>
-                <button>Voir plus de détails</button>
+                <button><a href="#etudes">Voir plus de détails</a></button>
             </div>
         </div>
-        <div class="slide fade">
+        <!-- <div class="slide fade">
             <img src="../assets/images/technologiesImg.jpg" alt="slide3">
             <div class="slide-content">
                 <h2>Technologies</h2>
-                <button>Voir plus de détails</button>
+                <button><a href="#technologies">Voir plus de détails</a></button>
             </div>
-        </div>
+        </div> -->
         <div class="slide fade">
             <img src="../assets/images/projetsImg.jpg" alt="slide4">
             <div class="slide-content">
                 <h2>Projets</h2>
-                <button>Voir plus de détails</button>
+                <button><a href="#projets">Voir plus de détails</a></button>
             </div>
         </div>
         <div class="slide fade">
             <img src="../assets/images/contactImg.jpg" alt="slide5">
             <div class="slide-content">
                 <h2>Me Contacter</h2>
-                <button>Voir plus de détails</button>
+                <button><a href="#contact">Voir plus de détails</a></button>
             </div>
         </div>
     </div>
@@ -93,7 +93,6 @@ setInterval(() => {
         <span class="dot" @click="currentSlide(2)"></span>
         <span class="dot" @click="currentSlide(3)"></span>
         <span class="dot" @click="currentSlide(4)"></span>
-        <span class="dot" @click="currentSlide(5)"></span>
     </div>
 
 </template>
@@ -127,6 +126,11 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
 }
 
 button:hover {

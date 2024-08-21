@@ -1,7 +1,7 @@
 <template>
     <nav>
         <h2>
-            <router-link to="/">Étienne Lessard</router-link>
+            <a href="#home">Étienne Lessard</a>
         </h2>
         <ul>
             <li>
@@ -34,12 +34,6 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-
 }
 
 h2 {
