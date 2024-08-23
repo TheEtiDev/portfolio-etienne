@@ -1,23 +1,23 @@
 <template>
     <nav>
         <h2>
-            <a href="#home">Étienne Lessard</a>
+            <a href="/#home">Étienne Lessard</a>
         </h2>
         <ul>
             <li>
-                <a href="#a-propos">À Propos</a>
+                <a href="/#a-propos">À Propos</a>
             </li>
             <li>
-                <a href="#projets">Projets</a>
+                <a href="/#projets">Projets</a>
             </li>
             <li>
-                <a href="#experiences">Expériences</a>
+                <a href="/#experiences">Expériences</a>
             </li>
             <li>
-                <a href="#etudes">Études</a>
+                <a href="/#etudes">Études</a>
             </li>
             <li>
-                <a href="#contact">Me Contacter</a>
+                <a href="/#contact">Me Contacter</a>
             </li>
         </ul>
     </nav>

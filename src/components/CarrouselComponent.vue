@@ -51,14 +51,14 @@ setInterval(() => {
 <template>
     <div class="carrousel-container">
         <div class="slide fade">
-            <img src="../assets/images/experienceImg.jpg" alt="slide1">
+            <img src="../assets/images/experienceImg.jpg" alt="imageExperience">
             <div class="slide-content">
                 <h2>Expériences</h2>
                 <button><a href="#experiences">Voir plus de détails</a></button>
             </div>
         </div>
         <div class="slide fade">
-            <img src="../assets/images/etudesImg.jpg" alt="slide2">
+            <img src="../assets/images/etudesImg.jpg" alt="imageEtudes">
             <div class="slide-content">
                 <h2>Études</h2>
                 <button><a href="#etudes">Voir plus de détails</a></button>
@@ -72,14 +72,14 @@ setInterval(() => {
             </div>
         </div> -->
         <div class="slide fade">
-            <img src="../assets/images/projetsImg.jpg" alt="slide4">
+            <img src="../assets/images/projetsImg.jpg" alt="imageProjets">
             <div class="slide-content">
                 <h2>Projets</h2>
                 <button><a href="#projets">Voir plus de détails</a></button>
             </div>
         </div>
         <div class="slide fade">
-            <img src="../assets/images/contactImg.jpg" alt="slide5">
+            <img src="../assets/images/contactImg.jpg" alt="imageContacts">
             <div class="slide-content">
                 <h2>Me Contacter</h2>
                 <button><a href="#contact">Voir plus de détails</a></button>
