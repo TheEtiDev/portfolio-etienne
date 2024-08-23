@@ -13,6 +13,11 @@ const router = createRouter({
       path: '/credits',
       name: 'credits',
       component: () => import('../views/CreditsView.vue')
+    },
+    {
+      path: '/eventlit',
+      name: 'eventlit',
+      component: () => import('../views/EventlitProjetView.vue')
     }
     // {
     //   path: '/about',

@@ -54,14 +54,14 @@ setInterval(() => {
             <img src="../assets/images/experienceImg.jpg" alt="imageExperience">
             <div class="slide-content">
                 <h2>Expériences</h2>
-                <button><a href="#experiences">Voir plus de détails</a></button>
+                <a href="#experiences">Voir plus de détails</a>
             </div>
         </div>
         <div class="slide fade">
             <img src="../assets/images/etudesImg.jpg" alt="imageEtudes">
             <div class="slide-content">
                 <h2>Études</h2>
-                <button><a href="#etudes">Voir plus de détails</a></button>
+                <a href="#etudes">Voir plus de détails</a>
             </div>
         </div>
         <!-- <div class="slide fade">
@@ -75,14 +75,14 @@ setInterval(() => {
             <img src="../assets/images/projetsImg.jpg" alt="imageProjets">
             <div class="slide-content">
                 <h2>Projets</h2>
-                <button><a href="#projets">Voir plus de détails</a></button>
+                <a href="#projets">Voir plus de détails</a>
             </div>
         </div>
         <div class="slide fade">
             <img src="../assets/images/contactImg.jpg" alt="imageContacts">
             <div class="slide-content">
                 <h2>Me Contacter</h2>
-                <button><a href="#contact">Voir plus de détails</a></button>
+                <a href="#contact">Voir plus de détails</a>
             </div>
         </div>
     </div>
@@ -118,7 +118,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-button {
+a {
     padding: 10px 20px;
     font-weight: 600;
     background-color: #333;
@@ -126,14 +126,10 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-button a {
-    color: white;
     text-decoration: none;
 }
 
-button:hover {
+a:hover {
     background-color: #555;
 }
 
