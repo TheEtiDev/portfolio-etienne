@@ -40,7 +40,7 @@ setInterval(() => {
                 <img id="eventlitImg" :src="eventlitHome" alt="eventlitImage">
                 <span>
                     <h4>Eventlit</h4>
-                    <a href="/eventlit" class="button-link" >En savoir plus</a>
+                    <router-link to="/eventlit" class="button-link">En savoir plus</router-link>
                 </span>
             </div>
             <!-- <div class="projet">
