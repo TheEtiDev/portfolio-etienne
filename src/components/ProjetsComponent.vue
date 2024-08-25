@@ -1,11 +1,19 @@
 <script setup>
 import { onMounted, ref } from 'vue';
+// Import les images
+import eventlitAnalyseDonnees from '@/assets/images/eventlit/eventlitAnalyseDonnees.png';
+import eventlitCreerEvenement from '@/assets/images/eventlit/eventlitCreerEvenement.png';
+import eventlitGererEvenement from '@/assets/images/eventlit/eventlitGererEvenement.png';
+import eventlitInscription from '@/assets/images/eventlit/eventlitInscription.png';
+import eventlitHome from '@/assets/images/eventlit/eventlitHome.png';
+
 const eventlitImages = [
-    'src/assets/images/eventlit/eventlitAnalyseDonnees.png',
-    'src/assets/images/eventlit//eventlitAnalyseDonnees.png',
-    'src/assets/images/eventlit/eventlitCreerEvenement.png',
-    'src/assets/images/eventlit/eventlitGererEvenement.png',
-    'src/assets/images/eventlit/eventlitInscription.png',
+    eventlitAnalyseDonnees,
+    eventlitAnalyseDonnees,
+    eventlitCreerEvenement,
+    eventlitGererEvenement,
+    eventlitInscription,
+    eventlitHome,
 ];
 
 let eventlitImage = ref(null);
@@ -29,7 +37,7 @@ setInterval(() => {
         <h3>Mes projets</h3>
         <div class="content-container">
             <div class="projet">
-                <img id="eventlitImg" src="../assets/images/eventlit/eventlitHome.png" alt="eventlitImage">
+                <img id="eventlitImg" :src="eventlitHome" alt="eventlitImage">
                 <span>
                     <h4>Eventlit</h4>
                     <a href="/eventlit" class="button-link" >En savoir plus</a>
